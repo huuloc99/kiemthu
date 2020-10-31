@@ -14,5 +14,10 @@ BorderPane{
 Button{
     -fx-background-color:  darkolivegreen;
     -fx-font-size:12; 
+<<<<<<< HEAD
     -fx-fill: captiontext ; 
 }
+=======
+    -fx-fill: black ; 
+        }
+>>>>>>> main
