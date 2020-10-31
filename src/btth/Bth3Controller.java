@@ -44,8 +44,8 @@ public class Bth3Controller implements Initializable {
         chart.setTitle( " Bieu Do  " );
         
         for( Node n: vctrl.getChildren()){
-            TextField t = (TextField) n;
-            chart.getData().add(new PieChart.Data(t.getText(),Integer.parseInt(t.getText())));
+            TextField d = (TextField) n;
+            chart.getData().add(new PieChart.Data(d.getText(),Integer.parseInt(d.getText())));
     }
         sp.getChildren().add(chart);
 }}
